@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
-public class LeapYearChecker {
+ class LeapYearChecker throws IOException
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException
+     {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a year: ");
