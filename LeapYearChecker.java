@@ -1,14 +1,10 @@
-import java.util.Scanner;
-
- class LeapYearChecker throws IOException
+ class LeapYearChecker
 {
 
-    public static void main(String[] args) throws IOException
+    public static void main (String[] args) 
      {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a year: ");
-        int year = scanner.nextInt();
+        int year = 2024;
 
         if (isLeapYear(year)) {
             System.out.println(year + " is a leap year.");
@@ -16,13 +12,18 @@ import java.util.Scanner;
             System.out.println(year + " is not a leap year.");
         }
 
-        scanner.close();
     }
 
     // Function to check if a year is a leap year
-    public static boolean isLeapYear(int year) {
+    public static boolean isLeapYear(int year) 
+    {
         // Leap years are divisible by 4
         // But century years are not leap years unless they are divisible by 400
         return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
     }
+    
+         
+    
+
+    
 }
