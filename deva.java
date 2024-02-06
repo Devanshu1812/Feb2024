@@ -1,14 +1,17 @@
-public class deva {
-    public static void main(String[] args) {
+class deva 
+{
+    public static void main(String[] args) 
+    {
         // Define the numbers
-        int num1 = 56;
-        int num2 = 67;
-        int num3 = 87;
+        double num1 = 5.6;
+        double num2 = 6.76437;
+        double num3 = 48.7;
 
         // Multiply the numbers
-        int result = num1 * num2 * num3;
+        double result = num1 * num2 * num3;
 
         // Print the result
+
         System.out.println("The result of multiplying " + num1 + ", " + num2 + ", and " + num3 + " is: " + result);
     }
 }
