@@ -4,8 +4,8 @@ class deva
     {
         // Define the numbers
         double num1 = 5.6;
-        double num2 = 6.76437;
-        double num3 = 48.7;
+        double num2 = 0.65;
+        double num3 = 1.345;
 
         // Multiply the numbers
         double result = num1 * num2 * num3;
