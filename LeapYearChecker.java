@@ -4,7 +4,7 @@
     public static void main (String[] args) 
      {
 
-        int year = 2024;
+        int year = 2028;
 
         if (isLeapYear(year)) {
             System.out.println(year + " is a leap year.");
